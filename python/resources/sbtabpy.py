@@ -10,8 +10,6 @@ import time
 import tkinter as tk
 import csv
 
-import openpyxl
-
 __author__ = "Jake Hattwell"
 __copyright__ = "None"
 __credits__ = ["Jake Hattwell"]
