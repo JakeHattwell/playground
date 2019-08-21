@@ -1,0 +1,62 @@
+!!SBtab TableID='t_25' SBtabVersion='1.1' TableType='Definition' TableTitle='Definitions of Columns'
+!ComponentName	!ComponentType	!IsPartOf	!Format	!Description
+ID	Column	Reaction	String	Reaction short name
+Name	Column	Reaction	String	Human readable name of the reaction
+ReactionFormula	Column	Reaction	String	Formal description of the reaction
+IsReversible	Column	Reaction	Boolean	Specify if the reaction should be treated as reversible. YES means the reactions is reversible, FALSE means it is irreversible
+GeneAssociation	Column	Reaction	String	Logic expression describing the influence of genes on the reaction fluxes. Its form should be: (gene1) and/or (gene2). The ID should be value of the the !ID field from the Gene table.
+Group	Column	Reaction	String	Groups in which the reaction belong, for instance pathways (but not limited to). Several groups should be separated by <U+0093>;<U+0094>
+Pathway	Column	Reaction	String	Pathways in which the reaction is involved, separated with <U+0093>;<U+0094>. Will become KEGG PATHWAY identifiers at some point
+Identifiers:kegg.reaction	Column	Reaction	String	Cross-references to KEGG reactions. Several cross-ref should be separated by <U+0093>;<U+0094>
+Identifiers:pubmed	Column	Reaction	String	Cross-references to PubMed. Only put the numerical identifier is included, no prefix such as <U+0093>PMID:<U+0094>. Several cross-ref should be separated by <U+0093>;<U+0094>
+Identifiers:DOI	Column	Reaction	String	Digital Object Identifiers linking to a source of information. Only the identifier is included, no prefix such as <U+0093>DOI:<U+0094>. Several cross-ref should be separated by <U+0093>;<U+0094>
+Identifiers:eco	Column	Reaction	String	Cross-reference to terms from the Evidence Ontology.  Note that the prefix <U+0091>ECO:<U+0092> is part of ECO identifiers.
+Comment	Column	Reaction	String	Any free form comment about the row
+Curator	Column	Reaction	String	The identifier of the Curator. The details are in the Curator table
+ID	Column	Gene	String	Gene short name, to be used for the GeneAssociation in the reaction tables
+Identifiers:WormBase	Column	Gene	String	Gene id in Wormbase. Generally of the form <U+0093>WBGene<U+0094> followed by several digits
+Symbol	Column	Gene	String	Standard gene symbol
+Locus	Column	Gene	String	Alternative gene ID, corresponding to the locus. Generally a letter followed by a few digits, a dot, and a digit.
+Name	Column	Gene	String	Human readable name of the gene. It should be the symbol if it exists, the locus ID otherwise
+GO_process	Column	Gene	String	Cross-references to Gene Ontology biological process branch. Note that the prefix <U+0091>GO:<U+0092> is part of Gene Ontology identifiers. Several cross-ref should be separated by <U+0093>;<U+0094>
+GO_function	Column	Gene	String	Cross-references to Gene Ontology molecular function branch. Note that the prefix <U+0091>GO:<U+0092> is part of Gene Ontology identifiers. Several cross-ref should be separated by <U+0093>;<U+0094>
+GO_component	Column	Gene	String	Cross-references to Gene Ontology cell component branch. Note that the prefix <U+0091>GO:<U+0092> is part of Gene Ontology identifiers. Several cross-ref should be separated by <U+0093>;<U+0094>
+Identifiers:ec-code	Column	Gene	String	Cross-references to the Enzyme Classification.  Several cross-ref should be separated by <U+0093>;<U+0094>
+Comment	Column	Gene	String	Any free form comment about the row
+Curator	Column	Gene	String	The identifier of the Curator. The details are in the Curator table
+ID	Column	Compound	String	Compound short name, to be used in the reaction tables
+Name	Column	Compound	String	Human readable name of the compound. Ideally the ChEBI name.
+Location	Column	Compound	String	Compartment where the compound is located. It should be the value of an ID field of the Compartment table.
+Charge	Column	Compound	integer	Electrical charge of the compound
+Formula	Column	Compound	String	Chemical formula, if possible coming from ChEBI
+Identifiers:chebi	Column	Compound	String	Cross-reference to ChEBI. Note that the prefix <U+0091>CHEBI:<U+0092> is part of ChEBI identifiers. Several cross-ref should be separated by <U+0093>;<U+0094>
+Identifiers:kegg.compound	Column	Compound	String	Cross-reference to KEGG compound. Several cross-ref should be separated by <U+0093>;<U+0094>
+Identifiers:pubmed	Column	Compound	String	Cross-reference to PubMed. Only put the numerical identifier is included, no prefix such as <U+0093>PMID:<U+0094>. Several cross-ref should be separated by <U+0093>;<U+0094>
+Identifiers:DOI	Column	Compound	String	Digital Object Identifiers linking to a source of information. Only the identifier is included, no prefix such as <U+0093>DOI:<U+0094>. Several cross-ref should be separated by <U+0093>;<U+0094>
+Identifiers:eco	Column	Compound	String	Cross-reference to terms from the Evidence Ontology.  Note that the prefix <U+0091>ECO:<U+0092> is part of ECO identifiers.
+Comment	Column	Compound	String	Any free form comment about the row
+Notes:InChI Column  Compound    String  InChI String details
+Curator Column	Compound	String	The identifier of the Curator. The details are in the Curator table
+ID	Column	Compartment	String	Compartment short name, to be used in the compound tables
+Name	Column	Compartment	String	Human readable name of the reaction
+Identifiers:go	Column	Compartment	String	Cross-reference to Gene Ontology, cell component branch. Note that the prefix <U+0091>GO:<U+0092> is part of Gene Ontology identifiers. Several cross-ref should be separated by <U+0093>,<U+0094>
+Comment	Column	Compartment	String	Any free form comment about the row
+ID	Column	Pathway	String	Pathway short name, to be used in the reaction table
+Name	Column	Pathway	String	Human readable name of the pathway
+Kind	Column	Pathway	String	Should always be partonomy
+GO_process	Column	Pathway	String	Cross-references to Gene Ontology biological process branch. Note that the prefix <U+0091>GO:<U+0092> is part of Gene Ontology identifiers. Several cross-ref should be separated by <U+0093>;<U+0094>
+Identifiers:kegg.pathway	Column	Pathway	String	Cross-reference to KEGG PATHWAY. Several cross-ref should be separated by <U+0093>;<U+0094>
+Comment	Column	Pathway	String	Any free form comment about the row
+Curator	Column	Pathway	String	The identifier of the Curator. The details are in the Curator table
+ID	Column	Compound-class	String	Compound-class short name, to be used in the reaction table
+Name	Column	Compound-class	String	Human readable name of the compound class
+Kind	Column	Compound-class	String	Should always be classification
+Identifiers:chebi	Column	Compound-class	String	Cross-reference to the ChEBI entries corresponding to the compound classes. Note that the prefix <U+0091>CHEBI:<U+0092> is part of ChEBI identifiers. Several cross-ref should be separated by <U+0093>;<U+0094>
+Comment	Column	Compound-class	String	Any free form comment about the row
+Curator	Column	Compound-class	String	The identifier of the Curator. The details are in the Curator table
+ID	Column	Curator	String	A unique String that identifies the curator
+given-name	Column	Curator	String	Given name of the curator, including first and middele names
+family-name	Column	Curator	String	Family name or names of the curator
+organization-name	Column	Curator	String	Affiliation of the curator, Several organizations should be separated by ";"
+email	Column	Curator	String	Email address of the curator. Several addresses should be separated by ";"
+Notes	Column	All	String	The columns named <U+0093>!Notes:something<U+0094> contain non-standard information to be included in the "notes" elements of the SBML file and not in bona fide SBML elements
