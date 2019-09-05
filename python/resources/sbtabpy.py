@@ -51,7 +51,7 @@ class modelSystem():
             self.count=1
             for hit in paths:
                 print(" ".join(["Loading file:",hit]))
-                self.loadTable(name,name+"/"+hit+"-SBtab.tsv")
+                self.loadTable(hit,name+"/"+hit+"-SBtab.tsv")
 
             print(" ".join([str(len(paths)),"files loaded into the model"]))
             success = True    
