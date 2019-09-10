@@ -320,7 +320,7 @@ def react_proc(rxn):
     for d in [reactants,products]:
         for key,val in d.items():
             try:
-                d[key] = str(int(float(val)))
+                d[key] = str(float(val))
             except:
                 pass
 
