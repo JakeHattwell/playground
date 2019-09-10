@@ -11,7 +11,6 @@ model.objective = biomass_rxn
 medium = model.medium
 medium["O2_Exchange_reactions_e"] = 1000
 medium["EXC0050"] = 1000
-print(medium)
 model.medium = medium
 with model:
     solution = model.optimize()

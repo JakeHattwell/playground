@@ -9,9 +9,8 @@ print(len(model.genes),"genes")
 biomass_rxn = model.reactions.get_by_id("BIO0100")
 model.objective = biomass_rxn
 medium = model.medium
-medium["O2_Exchange_reactions_e"] = 1000
-medium["EXC0050"] = 1000
-print(medium)
+for i in medium:
+    medium[i] = 0
 model.medium = medium
 with model:
     solution = model.optimize()
