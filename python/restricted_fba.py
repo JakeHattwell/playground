@@ -19,3 +19,5 @@ print("---------------------------------------------")
 print("Solution:")
 print(solution.objective_value)
 print(solution.status)
+
+assert solution.objective_value== 0, "Flux carried under restricted conditions"

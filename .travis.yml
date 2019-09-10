@@ -6,4 +6,5 @@ install:
   - pip install -r requirements.txt
 script:
     - python python/tsv_to_sbml.py
-    - python python/hello_world.py
+    - python python/basic_fba.py
+    - python python/restricted_fba.py
