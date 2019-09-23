@@ -11,3 +11,5 @@ script:
     - python python/tsv_to_sbml.py
     - python python/basic_fba.py
     - python python/restricted_fba.py
+after_success:
+  - deploy.sh
