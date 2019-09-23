@@ -18,4 +18,5 @@ deploy:
   keep_history: true
   on:
     branch: devel
+    condition: $TRAVIS_PYTHON_VERSION = "3.7"
   target_branch: devel-build

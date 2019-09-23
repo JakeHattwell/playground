@@ -1,4 +1,4 @@
-# wormjam-playground
+# wormjam-ci-test
 
 [![Build Status](https://travis-ci.com/JakeHattwell/playground.svg?branch=master)](https://travis-ci.com/JakeHattwell/playground)
 
