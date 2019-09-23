@@ -139,7 +139,7 @@ for key,val in compiler.tables.get("Pathway").data.items():
     }
     groups_group = etree.SubElement(group_tree,"{%s}"%groups+"group",attrib=attribs)
     descriptors = [val["!Identifiers:GO_process"],val["!Identifiers:kegg:pathway"],val["!Identifiers:BioCyc"],val["!Identifiers:pw"]]
-    links = ["http://identifiers.org/go/","https://identifiers.org/kegg:","http://identifiers.org/biocyc/","http://identifiers.org/pw/"]
+    links = ["http://identifiers.org/go/","http://identifiers.org/kegg:","http://identifiers.org/biocyc/","http://identifiers.org/pw/"]
     merge = zip(links,descriptors)
     new = []
     for i in merge:
@@ -207,9 +207,9 @@ for key,val in compiler.tables.get("Compound").data.items():
         annotation_tree = etree.SubElement(etree.SubElement(etree.SubElement(metabolite,"annotation"),"{%s}"%rdf+"RDF"),"{%s}"%rdf+"Description",attrib={"{%s}"%rdf+"about":"#"+metaid})
         next_level = etree.SubElement(etree.SubElement(annotation_tree,"{%s}"%bqbiol+"is"),"{%s}"%rdf+"Bag")
         annotation_links={
-            "!Identifiers:chebi":"https://www.ebi.ac.uk/chebi/searchId.do?chebiId=",
-            "!Identifiers:pubmed":"https://www.ncbi.nlm.nih.gov/pubmed/",
-            "!Identifiers:doi":"https://doi.org/",
+            "!Identifiers:chebi":"http://identifiers.org/",
+            "!Identifiers:pubmed":"http://identifiers.org/pubmed/",
+            "!Identifiers:doi":"http://identifiers.org/doi/",
             "!Identifiers:eco":"http://www.evidenceontology.org/term/"
         }
         for i in ["!Identifiers:chebi","!Identifiers:pubmed","!Identifiers:doi","!Identifiers:eco"]:
@@ -359,11 +359,11 @@ for key,val in compiler.tables.get("Reaction").data.items():
             etree.SubElement(notes_body,"{%s}"%xhtml+"p").text=i.replace("!","").replace("Notes:","").replace("Pathway","Subsystem").upper() + ": " + val[i]
 
     annotation_links={
-        "!Identifiers:kegg.reaction":"https://identifiers.org/kegg:",
-        "!Identifiers:pubmed":"https://www.ncbi.nlm.nih.gov/pubmed/",
-        "!Identifiers:doi":"https://doi.org/",
+        "!Identifiers:kegg.reaction":"http://identifiers.org/kegg:",
+        "!Identifiers:pubmed":"http://identifiers.org/pubmed/",
+        "!Identifiers:doi":"http://identifiers.org/doi/",
         "!Identifiers:eco":"http://www.evidenceontology.org/term/",
-        "!Identifiers:rheadb_exact":"https://www.rhea-db.org/reaction?id="
+        "!Identifiers:rheadb_exact":"http://identifiers.org//reaction?id="
     }
     if any([val[i] for i in annotation_links if val[i] != ""]):
         annotation_tree = etree.SubElement(etree.SubElement(etree.SubElement(reaction_field,"annotation"),"{%s}"%rdf+"RDF"),"{%s}"%rdf+"Description",attrib={"{%s}"%rdf+"about":"#"+metaid})
