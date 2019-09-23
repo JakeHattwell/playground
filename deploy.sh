@@ -10,9 +10,10 @@ commit_website_files() {
 }
 
 upload_files() {
-  git remote add origin https://$GITHUB_TOKEN@github.com/JakeHattwell/wormjam-ci-test.git > /dev/null 2>&1
+  git remote add origin https://$GITHUB_TOKEN@github.com/JakeHattwell/wormjam-ci-test.git
   git push --quiet --set-upstream origin devel-build
 }
+
 
 setup_git
 commit_website_files
