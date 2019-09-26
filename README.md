@@ -1,6 +1,6 @@
 # wormjam-ci-test
 
-[![Build Status](https://travis-ci.com/JakeHattwell/playground.svg?branch=devel)](https://travis-ci.com/JakeHattwell/playground)
+[![Build Status](https://travis-ci.com/JakeHattwell/wormjam-ci-test.svg?branch=devel)](https://travis-ci.com/JakeHattwell/playground)
 
 Testing ground for messing around with integrations
 
