@@ -13,7 +13,7 @@ script:
     - memote report snapshot test_model.xml
     - python python/manage_reports.py
 after_success:
-  - push.sh
+  - ./push.sh
 deploy:
   - provider: pages
     skip_cleanup: true
