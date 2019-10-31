@@ -12,6 +12,8 @@ script:
     - python python/restricted_fba.py
     - travis_wait 20 memote report snapshot test_model.xml
     - python python/manage_reports.py
+after_success:
+  - push.sh
 deploy:
   - provider: pages
     skip_cleanup: true
@@ -21,3 +23,4 @@ deploy:
       branch: devel
       condition: $TRAVIS_PYTHON_VERSION = "3.7"
     target_branch: gh-pages
+
