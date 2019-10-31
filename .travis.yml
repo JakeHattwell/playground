@@ -10,7 +10,7 @@ script:
     - python python/tsv_to_sbml.py
     - python python/basic_fba.py
     - python python/restricted_fba.py
-    - travis_wait 30 memote report snapshot test_model.xml
+    - memote report snapshot test_model.xml
     - python python/manage_reports.py
 after_success:
   - push.sh
