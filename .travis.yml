@@ -12,8 +12,7 @@ script:
     - python python/restricted_fba.py
     - memote report snapshot test_model.xml
     - python python/manage_reports.py
-after_success:
-  - ./push.sh
+
 deploy:
   - provider: pages
     skip_cleanup: true
