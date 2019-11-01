@@ -9,3 +9,4 @@ if "index.html" in os.listdir():
 for i in os.listdir():
     if "travis_wait" in i:
         os.remove(i)
+print("Clean up complete!")
