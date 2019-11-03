@@ -12,7 +12,8 @@ script:
     - python python/restricted_fba.py
     - travis wait 30 memote report snapshot test_model.xml
     - python python/manage_reports.py
-    - ./report.sh
+    - 'if [ "$TRAVIS_PULL_REQUEST" != "true" ]; then bash ./report.sh; fi'
+
 
 deploy:
   - provider: pages
