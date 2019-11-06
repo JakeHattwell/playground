@@ -1,6 +1,6 @@
 import json
 import sys
-
+import os
 import requests
 
 API_KEY = sys.argv[1]
@@ -21,6 +21,6 @@ for i in os.listdir():
         with open(i) as f:
             data = {"body":f.read()}
 
-json_data = json.dumps(data)
+        json_data = json.dumps(data)
 
-comment = requests.post(API_ENDPOINT,headers=headers,data=json_data)
+        comment = requests.post(API_ENDPOINT,headers=headers,data=json_data)
