@@ -31,3 +31,5 @@ for i in os.listdir():
         json_data = json.dumps(data)
 
         comment = requests.post(API_ENDPOINT,headers=headers,data=json_data)
+    if comment.status_code == 201:
+        print("API Successful")
