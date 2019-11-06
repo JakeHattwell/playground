@@ -12,7 +12,7 @@ script:
     - python python/restricted_fba.py
     - git stash
     - git init
-    - memote run test_model.xml
+    - memote report test_model.xml
     - 'if [ "$TRAVIS_PULL_REQUEST" != "true" ]; then python ./comment_script.py $GITHUB_TOKEN $TRAVIS_REPO_SLUG $TRAVIS_PULL_REQUEST; fi'
     - python python/manage_reports.py
 
