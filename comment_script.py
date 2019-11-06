@@ -13,6 +13,7 @@ print(API_KEY)
 print(REPO_SLUG)
 print(PULL_REQUEST)
 print(API_ENDPOINT)
+
 headers = {'Authorization':'token '+API_KEY}
 
 with open("results.txt") as f:
