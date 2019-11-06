@@ -24,6 +24,10 @@ for i in os.listdir():
         json_data = json.dumps(data)
 
         comment = requests.post(API_ENDPOINT,headers=headers,data=json_data)
+    if "results.txt" in i:
+        with open(i) as f:
+            data = {"body":f.read()}
 
-        if comment.status_code == 200:
-            print("API Success")
+        json_data = json.dumps(data)
+
+        comment = requests.post(API_ENDPOINT,headers=headers,data=json_data)
