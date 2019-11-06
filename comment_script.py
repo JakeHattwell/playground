@@ -16,8 +16,10 @@ print(API_ENDPOINT)
 
 headers = {'Authorization':'token '+API_KEY}
 
-with open("results.txt") as f:
-    data = {"body":f.read()}
+for i in os.listdir():
+    if "travis_wait" in i:
+        with open(i) as f:
+            data = {"body":f.read()}
 
 json_data = json.dumps(data)
 
