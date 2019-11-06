@@ -12,7 +12,7 @@ script:
     - python python/restricted_fba.py
     - travis_wait 30 memote report snapshot test_model.xml
     - python python/manage_reports.py
-    - 'if [ "$TRAVIS_PULL_REQUEST" != "true" ]; then bash ./report.sh; fi'
+    - 'if [ "$TRAVIS_PULL_REQUEST" != "true" ]; then python ./comment_script.py $GITHUB_TOKEN $TRAVIS_REPO_SLUG $TRAVIS_PULL_REQUEST'
 
 
 deploy:
