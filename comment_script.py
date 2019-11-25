@@ -88,20 +88,9 @@ for index,item in enumerate(failure_groups):
 
 failures = "\n".join(failure_groups)
     
-## Parse others
+## Parse other
 
-broken = []
-metabolites = []
-for i in other.split("\n"):
-    if "::" in i:
-        broken.append(i)
-    elif "0m: " in i:
-        metabolites.append(i)
 
-broken = [i.split("::")[1] for i in broken]
-metabolites = [i.split("0m: ")[1] for i in broken]
-broken = "The following tests broke: " + "\n".join(broken)
-metabolites = "The following metabolites are invalid: " + "\n".join(metabolites)
 
 ## Need to send: Errors, Tests, Failures, Broken, Metabolites
 
@@ -111,8 +100,7 @@ metabolites = "The following metabolites are invalid: " + "\n".join(metabolites)
 Errors = "### Errors\n"+errors
 Tests = "### Tests\n"+tests
 Failures = "### Failures\n"+failures
-Broken="### Broken Tests\n"+broken
-Metabolites="### Invalid Metabolites\n"+metabolites
+Broken="### Broken Tests\n"+other
 
-for i in [Errors,Tests,Failures,Broken,Metabolites]:
+for i in [Errors,Tests,Failures,Broken]:
     post_to_github(i)
