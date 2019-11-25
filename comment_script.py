@@ -95,7 +95,7 @@ metabolites = []
 for i in other.split("\n"):
     if "::" in i:
         broken.append(i)
-    elif "0m " in i:
+    elif "0m: " in i:
         metabolites.append(i)
 
 broken = [i.split("::")[1] for i in broken]
