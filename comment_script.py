@@ -107,5 +107,5 @@ Tests = "### Tests\n"+tests
 Failures = "### Failures\n"+failures
 Broken="### Broken Tests\n"+other
 
-for i in [Tests,Failures,Broken]: #VErrors,
+for i in [Errors,Tests,Failures,Broken]: #VErrors,
     post_to_github(i)
