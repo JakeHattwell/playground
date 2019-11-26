@@ -28,7 +28,7 @@ for i in os.listdir():
         with open(i) as f:
             # data = {"body":f.read()}
             raw = f.read()
-    if "errors.txt" in i:
+    if "travis_wait" in i:
         with open(i) as f:
             errors = f.read()
 
@@ -45,7 +45,7 @@ failures,other = raw.split("=============================== warnings summary ===
 
 ##errors doesn't really need parsing
 
-# errors = errors.split("Model:")[0]
+errors = errors.split("Model:")[0]
 
 ## Parsing Tests
 tests = tests.split("\n")[7:]
@@ -102,7 +102,7 @@ failures = "\n".join(failure_groups)
 
 
 
-# Errors = "### Errors\n"+errors
+Errors = "### Errors\n"+errors
 Tests = "### Tests\n"+tests
 Failures = "### Failures\n"+failures
 Broken="### Broken Tests\n"+other
