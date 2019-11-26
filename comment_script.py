@@ -41,9 +41,9 @@ tests,raw = raw.split("=================================== FAILURES ============
 failures,other = raw.split("=============================== warnings summary ===============================")
 
 ##errors doesn't really need parsing
-
+print(errors)
 errors = "\n".join(errors)
-
+print(errors)
 ## Parsing Tests
 tests = tests.split("\n")[7:]
 tests = [i.split("::")[1].split(" [ ")[0] for i in tests if len(i) > 2]
