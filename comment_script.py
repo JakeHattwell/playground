@@ -28,6 +28,9 @@ for i in os.listdir():
         with open(i) as f:
             # data = {"body":f.read()}
             raw = f.read()
+    if "errors.txt" in i:
+        with open(i) as f:
+            errors = f.read()
 
         # json_data = json.dumps(data)
 
@@ -36,14 +39,14 @@ for i in os.listdir():
         #     print("API Successful")
 
 
-errors,raw = raw.split("============================= test session starts ==============================")
+kill,raw = raw.split("============================= test session starts ==============================")
 tests,raw = raw.split("=================================== FAILURES ===================================")
 failures,other = raw.split("=============================== warnings summary ===============================")
 
 ##errors doesn't really need parsing
-print(errors)
-errors = "\n".join(errors)
-print(errors)
+
+errors = errors.split("Model:")[0]
+
 ## Parsing Tests
 tests = tests.split("\n")[7:]
 tests = [i.split("::")[1].split(" [ ")[0] for i in tests if len(i) > 2]
