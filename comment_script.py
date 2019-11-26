@@ -36,11 +36,13 @@ for i in os.listdir():
         #     print("API Successful")
 
 
-errors,raw = raw.split("test session starts")
+errors,raw = raw.split("============================= test session starts ==============================")
 tests,raw = raw.split("=================================== FAILURES ===================================")
 failures,other = raw.split("=============================== warnings summary ===============================")
 
 ##errors doesn't really need parsing
+
+errors = "\n".join(errors)
 
 ## Parsing Tests
 tests = tests.split("\n")[7:]
