@@ -24,7 +24,7 @@ def post_to_github(data):
         print("API Successful: "+data.split("\n")[0])
 
 for i in os.listdir():
-    if "travis_wait" in i:
+    if "results.txt" in i:
         with open(i) as f:
             # data = {"body":f.read()}
             raw = f.read()
