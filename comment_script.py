@@ -45,7 +45,7 @@ failures,other = raw.split("=============================== warnings summary ===
 
 ##errors doesn't really need parsing
 
-errors = errors.split("Model:")[0]
+# errors = errors.split("Model:")[0]
 
 ## Parsing Tests
 tests = tests.split("\n")[7:]
@@ -102,10 +102,10 @@ failures = "\n".join(failure_groups)
 
 
 
-Errors = "### Errors\n"+errors
+# Errors = "### Errors\n"+errors
 Tests = "### Tests\n"+tests
 Failures = "### Failures\n"+failures
 Broken="### Broken Tests\n"+other
 
-for i in [Errors,Tests,Failures,Broken]:
+for i in [Tests,Failures,Broken]: #VErrors,
     post_to_github(i)
