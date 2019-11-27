@@ -93,66 +93,66 @@ collecting ... collected 199 items
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_basic.py::test_find_reactions_with_identical_genes PASSED [ 43%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_basic.py::test_find_medium_metabolites FAILED [ 44%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_presence PASSED [ 44%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_consistency[Riboflavin_transport] FAILED [ 45%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_consistency[nucbiomass_n] FAILED [ 45%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_consistency[nucbiomass_m] FAILED [ 45%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_consistency[deoxynucbiomass_n] FAILED [ 46%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_consistency[nucbiomass_m] FAILED [ 46%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_consistency[Riboflavin_transport] FAILED [ 46%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_consistency[deoxynucbiomass_m] FAILED [ 47%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_consistency[Riboflavin_Exchange_reactions_e] FAILED [ 47%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_consistency[Biomass2] FAILED [ 48%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_default_production[Riboflavin_transport] PASSED [ 48%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_default_production[nucbiomass_n] PASSED [ 49%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_default_production[nucbiomass_n] PASSED [ 48%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_default_production[nucbiomass_m] PASSED [ 49%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_default_production[deoxynucbiomass_n] PASSED [ 49%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_default_production[nucbiomass_m] PASSED [ 50%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_default_production[Riboflavin_transport] PASSED [ 50%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_default_production[deoxynucbiomass_m] PASSED [ 50%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_default_production[Riboflavin_Exchange_reactions_e] PASSED [ 51%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_default_production[Biomass2] PASSED [ 51%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_open_production[Riboflavin_transport] PASSED [ 52%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_open_production[nucbiomass_n] PASSED [ 52%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_open_production[nucbiomass_m] PASSED [ 52%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_open_production[deoxynucbiomass_n] PASSED [ 53%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_open_production[nucbiomass_m] PASSED [ 53%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_open_production[Riboflavin_transport] PASSED [ 53%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_open_production[deoxynucbiomass_m] PASSED [ 54%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_open_production[Riboflavin_Exchange_reactions_e] PASSED [ 54%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_open_production[Biomass2] PASSED [ 55%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_default_production[Riboflavin_transport] PASSED [ 55%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_default_production[nucbiomass_n] FAILED [ 56%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_default_production[nucbiomass_n] FAILED [ 55%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_default_production[nucbiomass_m] FAILED [ 56%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_default_production[deoxynucbiomass_n] FAILED [ 56%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_default_production[nucbiomass_m] FAILED [ 57%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_default_production[Riboflavin_transport] PASSED [ 57%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_default_production[deoxynucbiomass_m] FAILED [ 57%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_default_production[Riboflavin_Exchange_reactions_e] PASSED [ 58%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_default_production[Biomass2] PASSED [ 58%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_open_production[Riboflavin_transport] PASSED [ 59%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_open_production[nucbiomass_n] FAILED [ 59%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_open_production[nucbiomass_m] FAILED [ 59%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_open_production[deoxynucbiomass_n] FAILED [ 60%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_open_production[nucbiomass_m] FAILED [ 60%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_open_production[Riboflavin_transport] PASSED [ 60%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_open_production[deoxynucbiomass_m] FAILED [ 61%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_open_production[Riboflavin_Exchange_reactions_e] PASSED [ 61%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_open_production[Biomass2] PASSED [ 62%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_gam_in_biomass[Riboflavin_transport] FAILED [ 62%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_gam_in_biomass[nucbiomass_n] FAILED [ 63%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_gam_in_biomass[nucbiomass_n] FAILED [ 62%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_gam_in_biomass[nucbiomass_m] FAILED [ 63%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_gam_in_biomass[deoxynucbiomass_n] FAILED [ 63%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_gam_in_biomass[nucbiomass_m] FAILED [ 64%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_gam_in_biomass[Riboflavin_transport] FAILED [ 64%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_gam_in_biomass[deoxynucbiomass_m] FAILED [ 64%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_gam_in_biomass[Riboflavin_Exchange_reactions_e] FAILED [ 65%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_gam_in_biomass[Biomass2] FAILED [ 65%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_fast_growth_default[Riboflavin_transport] PASSED [ 66%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_fast_growth_default[nucbiomass_n] PASSED [ 66%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_fast_growth_default[nucbiomass_m] PASSED [ 66%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_fast_growth_default[deoxynucbiomass_n] FAILED [ 67%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_fast_growth_default[nucbiomass_m] PASSED [ 67%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_fast_growth_default[Riboflavin_transport] PASSED [ 67%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_fast_growth_default[deoxynucbiomass_m] FAILED [ 68%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_fast_growth_default[Riboflavin_Exchange_reactions_e] FAILED [ 68%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_fast_growth_default[Biomass2] PASSED [ 69%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[Riboflavin_transport] FAILED [ 69%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[nucbiomass_n] FAILED [ 70%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[nucbiomass_n] FAILED [ 69%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[nucbiomass_m] FAILED [ 70%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[deoxynucbiomass_n] FAILED [ 70%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[nucbiomass_m] FAILED [ 71%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[Riboflavin_transport] FAILED [ 71%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[deoxynucbiomass_m] FAILED [ 71%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[Riboflavin_Exchange_reactions_e] FAILED [ 72%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[Biomass2] FAILED [ 72%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_essential_precursors_not_in_biomass[Riboflavin_transport] FAILED [ 73%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_essential_precursors_not_in_biomass[nucbiomass_n] FAILED [ 73%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_essential_precursors_not_in_biomass[nucbiomass_m] FAILED [ 73%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_essential_precursors_not_in_biomass[deoxynucbiomass_n] FAILED [ 74%]
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_essential_precursors_not_in_biomass[nucbiomass_m] FAILED [ 74%]
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_essential_precursors_not_in_biomass[Riboflavin_transport] FAILED [ 74%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_essential_precursors_not_in_biomass[deoxynucbiomass_m] FAILED [ 75%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_essential_precursors_not_in_biomass[Riboflavin_Exchange_reactions_e] FAILED [ 75%]
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_essential_precursors_not_in_biomass[Biomass2] FAILED [ 76%]
@@ -659,7 +659,7 @@ ___________________ test_gene_protein_reaction_rule_presence ___________________
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_basic.py:206: in test_gene_protein_reaction_rule_presence
     assert len(ann["data"]) == 0, ann["message"]
 E   AssertionError: There are a total of 3421 reactions (91.13%) without GPR:
-E     FAS11_m, NDPK2_c, RXN909_34_c, TCM0119, GSNK_m, ...
+E     RC01494, RM03665, RXN909_115_c, DURAD_c, NDPK7_n, ...
 E   assert 3421 == 0
 E     -3421
 E     +0
@@ -696,8 +696,8 @@ ______________________ test_find_pure_metabolic_reactions ______________________
     if is_transport_reaction_formulae(rxn):
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:202: in is_transport_reaction_formulae
     delta_dicts = find_transported_elements(rxn)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:107: in find_transported_elements
-    for (k, v) in iteritems(met.elements)}
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:110: in find_transported_elements
+    iteritems(met.elements)}
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/six.py:587: in iteritems
     return iter(d.items(**kw))
 E   AttributeError: 'NoneType' object has no attribute 'items'
@@ -716,8 +716,8 @@ ________________ test_find_constrained_pure_metabolic_reactions ________________
     if is_transport_reaction_formulae(rxn):
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:202: in is_transport_reaction_formulae
     delta_dicts = find_transported_elements(rxn)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:107: in find_transported_elements
-    for (k, v) in iteritems(met.elements)}
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:110: in find_transported_elements
+    iteritems(met.elements)}
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/six.py:587: in iteritems
     return iter(d.items(**kw))
 E   AttributeError: 'NoneType' object has no attribute 'items'
@@ -730,8 +730,8 @@ ________________________ test_find_transport_reactions _________________________
     if is_transport_reaction_formulae(rxn):
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:202: in is_transport_reaction_formulae
     delta_dicts = find_transported_elements(rxn)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:107: in find_transported_elements
-    for (k, v) in iteritems(met.elements)}
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:110: in find_transported_elements
+    iteritems(met.elements)}
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/six.py:587: in iteritems
     return iter(d.items(**kw))
 E   AttributeError: 'NoneType' object has no attribute 'items'
@@ -744,8 +744,8 @@ __________________ test_find_constrained_transport_reactions ___________________
     if is_transport_reaction_formulae(rxn):
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:202: in is_transport_reaction_formulae
     delta_dicts = find_transported_elements(rxn)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:107: in find_transported_elements
-    for (k, v) in iteritems(met.elements)}
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:110: in find_transported_elements
+    iteritems(met.elements)}
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/six.py:587: in iteritems
     return iter(d.items(**kw))
 E   AttributeError: 'NoneType' object has no attribute 'items'
@@ -760,8 +760,8 @@ _____________________ test_transport_reaction_gpr_presence _____________________
     if is_transport_reaction_formulae(rxn):
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:202: in is_transport_reaction_formulae
     delta_dicts = find_transported_elements(rxn)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:107: in find_transported_elements
-    for (k, v) in iteritems(met.elements)}
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:110: in find_transported_elements
+    iteritems(met.elements)}
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/six.py:587: in iteritems
     return iter(d.items(**kw))
 E   AttributeError: 'NoneType' object has no attribute 'items'
@@ -775,18 +775,18 @@ Compartment `e` sounds like an external compartment. Using this one without coun
 ------------------------------ Captured log call -------------------------------
 boundary_types.py           56 INFO     Compartment `e` sounds like an external compartment. Using this one without counting boundary reactions
 boundary_types.py           56 INFO     Compartment `e` sounds like an external compartment. Using this one without counting boundary reactions
-________________ test_biomass_consistency[Riboflavin_transport] ________________
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:121: in test_biomass_consistency
-    assert outcome, ann["message"][reaction_id]
-E   AssertionError: The component molar mass of the biomass reaction Riboflavin_transport
-E     sums up to 0.0             which is outside of the 1e-03 margin from 1
-E     mmol / g[CDW] / h.
-E   assert False
 ____________________ test_biomass_consistency[nucbiomass_n] ____________________
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:121: in test_biomass_consistency
     assert outcome, ann["message"][reaction_id]
 E   AssertionError: The component molar mass of the biomass reaction nucbiomass_n sums up
 E     to 0.31930559300000005             which is outside of the 1e-03
+E     margin from 1 mmol / g[CDW] / h.
+E   assert False
+____________________ test_biomass_consistency[nucbiomass_m] ____________________
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:121: in test_biomass_consistency
+    assert outcome, ann["message"][reaction_id]
+E   AssertionError: The component molar mass of the biomass reaction nucbiomass_m sums up
+E     to 0.31846477316000005             which is outside of the 1e-03
 E     margin from 1 mmol / g[CDW] / h.
 E   assert False
 _________________ test_biomass_consistency[deoxynucbiomass_n] __________________
@@ -796,12 +796,12 @@ E   AssertionError: The component molar mass of the biomass reaction deoxynucbio
 E     sums up to 0.30786483150000005             which is outside of the
 E     1e-03 margin from 1 mmol / g[CDW] / h.
 E   assert False
-____________________ test_biomass_consistency[nucbiomass_m] ____________________
+________________ test_biomass_consistency[Riboflavin_transport] ________________
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:121: in test_biomass_consistency
     assert outcome, ann["message"][reaction_id]
-E   AssertionError: The component molar mass of the biomass reaction nucbiomass_m sums up
-E     to 0.31846477316000005             which is outside of the 1e-03
-E     margin from 1 mmol / g[CDW] / h.
+E   AssertionError: The component molar mass of the biomass reaction Riboflavin_transport
+E     sums up to 0.0             which is outside of the 1e-03 margin from 1
+E     mmol / g[CDW] / h.
 E   assert False
 _________________ test_biomass_consistency[deoxynucbiomass_m] __________________
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:121: in test_biomass_consistency
@@ -830,17 +830,7 @@ ___________ test_biomass_precursors_default_production[nucbiomass_n] ___________
 E   AssertionError: Using the biomass reaction nucbiomass_n and when the model is
 E     simulated on the         provided default medium a total of 4
 E     precursors         (100.00% of all precursors except h2o and atp)
-E     cannot be produced: ['cytr_n', 'adnr_n', 'urir_n', 'guar_n']
-E   assert 4 == 0
-E     -4
-E     +0
-________ test_biomass_precursors_default_production[deoxynucbiomass_n] _________
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:218: in test_biomass_precursors_default_production
-    assert len(ann["data"][reaction_id]) == 0, ann["message"][reaction_id]
-E   AssertionError: Using the biomass reaction deoxynucbiomass_n and when the model is
-E     simulated on the         provided default medium a total of 4
-E     precursors         (100.00% of all precursors except h2o and atp)
-E     cannot be produced: ['dthyr_n', 'dguar_n', 'dcytr_n', 'dadnr_n']
+E     cannot be produced: ['adnr_n', 'urir_n', 'cytr_n', 'guar_n']
 E   assert 4 == 0
 E     -4
 E     +0
@@ -850,7 +840,17 @@ ___________ test_biomass_precursors_default_production[nucbiomass_m] ___________
 E   AssertionError: Using the biomass reaction nucbiomass_m and when the model is
 E     simulated on the         provided default medium a total of 4
 E     precursors         (100.00% of all precursors except h2o and atp)
-E     cannot be produced: ['adnr_m', 'guar_m', 'urir_m', 'cytr_m']
+E     cannot be produced: ['cytr_m', 'adnr_m', 'guar_m', 'urir_m']
+E   assert 4 == 0
+E     -4
+E     +0
+________ test_biomass_precursors_default_production[deoxynucbiomass_n] _________
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:218: in test_biomass_precursors_default_production
+    assert len(ann["data"][reaction_id]) == 0, ann["message"][reaction_id]
+E   AssertionError: Using the biomass reaction deoxynucbiomass_n and when the model is
+E     simulated on the         provided default medium a total of 4
+E     precursors         (100.00% of all precursors except h2o and atp)
+E     cannot be produced: ['dcytr_n', 'dadnr_n', 'dthyr_n', 'dguar_n']
 E   assert 4 == 0
 E     -4
 E     +0
@@ -860,7 +860,7 @@ ________ test_biomass_precursors_default_production[deoxynucbiomass_m] _________
 E   AssertionError: Using the biomass reaction deoxynucbiomass_m and when the model is
 E     simulated on the         provided default medium a total of 4
 E     precursors         (100.00% of all precursors except h2o and atp)
-E     cannot be produced: ['dguar_m', 'dthyr_m', 'dcytr_m', 'dadnr_m']
+E     cannot be produced: ['dthyr_m', 'dadnr_m', 'dguar_m', 'dcytr_m']
 E   assert 4 == 0
 E     -4
 E     +0
@@ -870,17 +870,7 @@ ____________ test_biomass_precursors_open_production[nucbiomass_n] _____________
 E   AssertionError: Using the biomass reaction nucbiomass_n and when the model is
 E     simulated in         complete medium a total of 4 precursors
 E     (100.00% of all precursors except h2o and atp) cannot be produced:
-E     ['cytr_n', 'adnr_n', 'urir_n', 'guar_n']
-E   assert 4 == 0
-E     -4
-E     +0
-__________ test_biomass_precursors_open_production[deoxynucbiomass_n] __________
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:260: in test_biomass_precursors_open_production
-    assert len(ann["data"][reaction_id]) == 0, ann["message"][reaction_id]
-E   AssertionError: Using the biomass reaction deoxynucbiomass_n and when the model is
-E     simulated in         complete medium a total of 4 precursors
-E     (100.00% of all precursors except h2o and atp) cannot be produced:
-E     ['dthyr_n', 'dguar_n', 'dcytr_n', 'dadnr_n']
+E     ['adnr_n', 'urir_n', 'cytr_n', 'guar_n']
 E   assert 4 == 0
 E     -4
 E     +0
@@ -890,7 +880,17 @@ ____________ test_biomass_precursors_open_production[nucbiomass_m] _____________
 E   AssertionError: Using the biomass reaction nucbiomass_m and when the model is
 E     simulated in         complete medium a total of 4 precursors
 E     (100.00% of all precursors except h2o and atp) cannot be produced:
-E     ['adnr_m', 'guar_m', 'urir_m', 'cytr_m']
+E     ['cytr_m', 'adnr_m', 'guar_m', 'urir_m']
+E   assert 4 == 0
+E     -4
+E     +0
+__________ test_biomass_precursors_open_production[deoxynucbiomass_n] __________
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:260: in test_biomass_precursors_open_production
+    assert len(ann["data"][reaction_id]) == 0, ann["message"][reaction_id]
+E   AssertionError: Using the biomass reaction deoxynucbiomass_n and when the model is
+E     simulated in         complete medium a total of 4 precursors
+E     (100.00% of all precursors except h2o and atp) cannot be produced:
+E     ['dcytr_n', 'dadnr_n', 'dthyr_n', 'dguar_n']
 E   assert 4 == 0
 E     -4
 E     +0
@@ -900,20 +900,20 @@ __________ test_biomass_precursors_open_production[deoxynucbiomass_m] __________
 E   AssertionError: Using the biomass reaction deoxynucbiomass_m and when the model is
 E     simulated in         complete medium a total of 4 precursors
 E     (100.00% of all precursors except h2o and atp) cannot be produced:
-E     ['dguar_m', 'dthyr_m', 'dcytr_m', 'dadnr_m']
+E     ['dthyr_m', 'dadnr_m', 'dguar_m', 'dcytr_m']
 E   assert 4 == 0
 E     -4
 E     +0
-__________________ test_gam_in_biomass[Riboflavin_transport] ___________________
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:327: in test_gam_in_biomass
-    assert outcome, ann["message"][reaction_id]
-E   AssertionError: No, Riboflavin_transport does not contain a term for growth-associated
-E     maintenance.
-E   assert False
 ______________________ test_gam_in_biomass[nucbiomass_n] _______________________
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:327: in test_gam_in_biomass
     assert outcome, ann["message"][reaction_id]
 E   AssertionError: No, nucbiomass_n does not contain a term for growth-associated
+E     maintenance.
+E   assert False
+______________________ test_gam_in_biomass[nucbiomass_m] _______________________
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:327: in test_gam_in_biomass
+    assert outcome, ann["message"][reaction_id]
+E   AssertionError: No, nucbiomass_m does not contain a term for growth-associated
 E     maintenance.
 E   assert False
 ____________________ test_gam_in_biomass[deoxynucbiomass_n] ____________________
@@ -922,10 +922,10 @@ ____________________ test_gam_in_biomass[deoxynucbiomass_n] ____________________
 E   AssertionError: No, deoxynucbiomass_n does not contain a term for growth-associated
 E     maintenance.
 E   assert False
-______________________ test_gam_in_biomass[nucbiomass_m] _______________________
+__________________ test_gam_in_biomass[Riboflavin_transport] ___________________
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:327: in test_gam_in_biomass
     assert outcome, ann["message"][reaction_id]
-E   AssertionError: No, nucbiomass_m does not contain a term for growth-associated
+E   AssertionError: No, Riboflavin_transport does not contain a term for growth-associated
 E     maintenance.
 E   assert False
 ____________________ test_gam_in_biomass[deoxynucbiomass_m] ____________________
@@ -970,24 +970,6 @@ E     the model is simulated on             the provided default medium the
 E     growth rate is *lower* than that             of the fastest bacteria.
 E     This is to be expected for             a majority of organisms.
 E   assert False
-___________ test_direct_metabolites_in_biomass[Riboflavin_transport] ___________
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:416: in test_direct_metabolites_in_biomass
-    biomass.find_direct_metabolites(model, reaction))
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/biomass.py:235: in find_direct_metabolites
-    model, biomass_rxns)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:470: in find_interchange_biomass_reactions
-    transporters = find_transport_reactions(model)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/pylru.py:571: in wrapper
-    value = func(*args, **kwargs)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:176: in find_transport_reactions
-    if is_transport_reaction_formulae(rxn):
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:202: in is_transport_reaction_formulae
-    delta_dicts = find_transported_elements(rxn)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:107: in find_transported_elements
-    for (k, v) in iteritems(met.elements)}
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/six.py:587: in iteritems
-    return iter(d.items(**kw))
-E   AttributeError: 'NoneType' object has no attribute 'items'
 _______________ test_direct_metabolites_in_biomass[nucbiomass_n] _______________
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:416: in test_direct_metabolites_in_biomass
     biomass.find_direct_metabolites(model, reaction))
@@ -1001,26 +983,8 @@ _______________ test_direct_metabolites_in_biomass[nucbiomass_n] _______________
     if is_transport_reaction_formulae(rxn):
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:202: in is_transport_reaction_formulae
     delta_dicts = find_transported_elements(rxn)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:107: in find_transported_elements
-    for (k, v) in iteritems(met.elements)}
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/six.py:587: in iteritems
-    return iter(d.items(**kw))
-E   AttributeError: 'NoneType' object has no attribute 'items'
-____________ test_direct_metabolites_in_biomass[deoxynucbiomass_n] _____________
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:416: in test_direct_metabolites_in_biomass
-    biomass.find_direct_metabolites(model, reaction))
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/biomass.py:235: in find_direct_metabolites
-    model, biomass_rxns)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:470: in find_interchange_biomass_reactions
-    transporters = find_transport_reactions(model)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/pylru.py:571: in wrapper
-    value = func(*args, **kwargs)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:176: in find_transport_reactions
-    if is_transport_reaction_formulae(rxn):
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:202: in is_transport_reaction_formulae
-    delta_dicts = find_transported_elements(rxn)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:107: in find_transported_elements
-    for (k, v) in iteritems(met.elements)}
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:110: in find_transported_elements
+    iteritems(met.elements)}
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/six.py:587: in iteritems
     return iter(d.items(**kw))
 E   AttributeError: 'NoneType' object has no attribute 'items'
@@ -1037,8 +1001,44 @@ _______________ test_direct_metabolites_in_biomass[nucbiomass_m] _______________
     if is_transport_reaction_formulae(rxn):
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:202: in is_transport_reaction_formulae
     delta_dicts = find_transported_elements(rxn)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:107: in find_transported_elements
-    for (k, v) in iteritems(met.elements)}
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:110: in find_transported_elements
+    iteritems(met.elements)}
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/six.py:587: in iteritems
+    return iter(d.items(**kw))
+E   AttributeError: 'NoneType' object has no attribute 'items'
+____________ test_direct_metabolites_in_biomass[deoxynucbiomass_n] _____________
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:416: in test_direct_metabolites_in_biomass
+    biomass.find_direct_metabolites(model, reaction))
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/biomass.py:235: in find_direct_metabolites
+    model, biomass_rxns)
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:470: in find_interchange_biomass_reactions
+    transporters = find_transport_reactions(model)
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/pylru.py:571: in wrapper
+    value = func(*args, **kwargs)
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:176: in find_transport_reactions
+    if is_transport_reaction_formulae(rxn):
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:202: in is_transport_reaction_formulae
+    delta_dicts = find_transported_elements(rxn)
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:110: in find_transported_elements
+    iteritems(met.elements)}
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/six.py:587: in iteritems
+    return iter(d.items(**kw))
+E   AttributeError: 'NoneType' object has no attribute 'items'
+___________ test_direct_metabolites_in_biomass[Riboflavin_transport] ___________
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:416: in test_direct_metabolites_in_biomass
+    biomass.find_direct_metabolites(model, reaction))
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/biomass.py:235: in find_direct_metabolites
+    model, biomass_rxns)
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:470: in find_interchange_biomass_reactions
+    transporters = find_transport_reactions(model)
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/pylru.py:571: in wrapper
+    value = func(*args, **kwargs)
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:176: in find_transport_reactions
+    if is_transport_reaction_formulae(rxn):
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:202: in is_transport_reaction_formulae
+    delta_dicts = find_transported_elements(rxn)
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:110: in find_transported_elements
+    iteritems(met.elements)}
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/six.py:587: in iteritems
     return iter(d.items(**kw))
 E   AttributeError: 'NoneType' object has no attribute 'items'
@@ -1055,8 +1055,8 @@ ____________ test_direct_metabolites_in_biomass[deoxynucbiomass_m] _____________
     if is_transport_reaction_formulae(rxn):
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:202: in is_transport_reaction_formulae
     delta_dicts = find_transported_elements(rxn)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:107: in find_transported_elements
-    for (k, v) in iteritems(met.elements)}
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:110: in find_transported_elements
+    iteritems(met.elements)}
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/six.py:587: in iteritems
     return iter(d.items(**kw))
 E   AttributeError: 'NoneType' object has no attribute 'items'
@@ -1073,8 +1073,8 @@ _____ test_direct_metabolites_in_biomass[Riboflavin_Exchange_reactions_e] ______
     if is_transport_reaction_formulae(rxn):
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:202: in is_transport_reaction_formulae
     delta_dicts = find_transported_elements(rxn)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:107: in find_transported_elements
-    for (k, v) in iteritems(met.elements)}
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:110: in find_transported_elements
+    iteritems(met.elements)}
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/six.py:587: in iteritems
     return iter(d.items(**kw))
 E   AttributeError: 'NoneType' object has no attribute 'items'
@@ -1091,29 +1091,29 @@ _________________ test_direct_metabolites_in_biomass[Biomass2] _________________
     if is_transport_reaction_formulae(rxn):
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:202: in is_transport_reaction_formulae
     delta_dicts = find_transported_elements(rxn)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:107: in find_transported_elements
-    for (k, v) in iteritems(met.elements)}
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:110: in find_transported_elements
+    iteritems(met.elements)}
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/six.py:587: in iteritems
     return iter(d.items(**kw))
 E   AttributeError: 'NoneType' object has no attribute 'items'
-________ test_essential_precursors_not_in_biomass[Riboflavin_transport] ________
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:494: in test_essential_precursors_not_in_biomass
-    assert len(ann["data"][reaction_id]) == 0, ann["message"][reaction_id]
-E   AssertionError: Riboflavin_transport lacks a total of 35 essential metabolites
-E     (3500.00% of all biomass precursors). Specifically         these are:
-E     ['MNXM94', 'MNXM55', 'MNXM134', 'MNXM76', 'MNXM61', 'MNXM97',
-E     'MNXM53', 'MNXM114', 'MNXM42', 'MNXM142', 'MNXM37', 'MNXM89557',
-E     'MNXM231', 'MNXM70', 'MNXM78', 'MNXM199', 'MNXM140', 'MNXM32',
-E     'gly_c', 'MNXM147', 'datp_c', 'dctp_c', 'dttp_c', 'dgtp_c', 'gtp_c',
-E     'ctp_c', 'utp_c', 'nad_c', 'nadp_c', 'amet_c', 'fad_c', 'pydx5p_c',
-E     'coa_c', 'thmpp_c', 'MNXM2'].
-E   assert 35 == 0
-E     -35
-E     +0
 ____________ test_essential_precursors_not_in_biomass[nucbiomass_n] ____________
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:494: in test_essential_precursors_not_in_biomass
     assert len(ann["data"][reaction_id]) == 0, ann["message"][reaction_id]
 E   AssertionError: nucbiomass_n lacks a total of 37 essential metabolites
+E     (925.00% of all biomass precursors). Specifically         these are:
+E     ['MNXM94', 'MNXM55', 'MNXM134', 'MNXM76', 'MNXM61', 'MNXM97',
+E     'MNXM53', 'MNXM114', 'MNXM42', 'MNXM142', 'MNXM37', 'MNXM89557',
+E     'MNXM231', 'MNXM70', 'MNXM78', 'MNXM199', 'MNXM140', 'MNXM32',
+E     'gly_c', 'MNXM147', 'datp_c', 'dctp_c', 'dttp_c', 'dgtp_c', 'atp_c',
+E     'gtp_c', 'ctp_c', 'utp_c', 'nad_c', 'nadp_c', 'amet_c', 'fad_c',
+E     'pydx5p_c', 'coa_c', 'thmpp_c', 'fmn_c', 'MNXM2'].
+E   assert 37 == 0
+E     -37
+E     +0
+____________ test_essential_precursors_not_in_biomass[nucbiomass_m] ____________
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:494: in test_essential_precursors_not_in_biomass
+    assert len(ann["data"][reaction_id]) == 0, ann["message"][reaction_id]
+E   AssertionError: nucbiomass_m lacks a total of 37 essential metabolites
 E     (925.00% of all biomass precursors). Specifically         these are:
 E     ['MNXM94', 'MNXM55', 'MNXM134', 'MNXM76', 'MNXM61', 'MNXM97',
 E     'MNXM53', 'MNXM114', 'MNXM42', 'MNXM142', 'MNXM37', 'MNXM89557',
@@ -1138,19 +1138,19 @@ E     'pydx5p_c', 'coa_c', 'thmpp_c', 'fmn_c', 'MNXM2'].
 E   assert 37 == 0
 E     -37
 E     +0
-____________ test_essential_precursors_not_in_biomass[nucbiomass_m] ____________
+________ test_essential_precursors_not_in_biomass[Riboflavin_transport] ________
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:494: in test_essential_precursors_not_in_biomass
     assert len(ann["data"][reaction_id]) == 0, ann["message"][reaction_id]
-E   AssertionError: nucbiomass_m lacks a total of 37 essential metabolites
-E     (925.00% of all biomass precursors). Specifically         these are:
+E   AssertionError: Riboflavin_transport lacks a total of 35 essential metabolites
+E     (3500.00% of all biomass precursors). Specifically         these are:
 E     ['MNXM94', 'MNXM55', 'MNXM134', 'MNXM76', 'MNXM61', 'MNXM97',
 E     'MNXM53', 'MNXM114', 'MNXM42', 'MNXM142', 'MNXM37', 'MNXM89557',
 E     'MNXM231', 'MNXM70', 'MNXM78', 'MNXM199', 'MNXM140', 'MNXM32',
-E     'gly_c', 'MNXM147', 'datp_c', 'dctp_c', 'dttp_c', 'dgtp_c', 'atp_c',
-E     'gtp_c', 'ctp_c', 'utp_c', 'nad_c', 'nadp_c', 'amet_c', 'fad_c',
-E     'pydx5p_c', 'coa_c', 'thmpp_c', 'fmn_c', 'MNXM2'].
-E   assert 37 == 0
-E     -37
+E     'gly_c', 'MNXM147', 'datp_c', 'dctp_c', 'dttp_c', 'dgtp_c', 'gtp_c',
+E     'ctp_c', 'utp_c', 'nad_c', 'nadp_c', 'amet_c', 'fad_c', 'pydx5p_c',
+E     'coa_c', 'thmpp_c', 'MNXM2'].
+E   assert 35 == 0
+E     -35
 E     +0
 _________ test_essential_precursors_not_in_biomass[deoxynucbiomass_m] __________
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py:494: in test_essential_precursors_not_in_biomass
@@ -1196,7 +1196,7 @@ _______________________ test_stoichiometric_consistency ________________________
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py:64: in test_stoichiometric_consistency
     assert is_consistent, ann["message"]
 E   AssertionError: This model contains 1786 (58.14%) unconserved         metabolites:
-E     betqu_c, selnt_c, 5htrp_c, pheme_c, betqu_n, ...
+E     3ohd9coa_m, glyald_c, drib_c, glac_c, chito2pdol_c, ...
 E   assert False
 ----------------------------- Captured stderr call -----------------------------
 model 'WormJamTestBuild' has 3415 internal reactions
@@ -1209,7 +1209,8 @@ _________________________ test_reaction_charge_balance _________________________
     assert len(ann["data"]) == 0, ann["message"]
 E   AssertionError: A total of 705 (20.64%) reactions are charge unbalanced with at
 E     least one of the metabolites not having a charge or the overall
-E     charge not equal to 0: FAS11_m, NDPK2_c, GSNK_m, RC08539, FAS12_c, ...
+E     charge not equal to 0: NDPK7_n, 2_4_1_131_RXN_c, 2_7_8_15_RXN_c,
+E     RXN909_192_c, 6_PHOSPHOFRUCTO_2_KINASE_RXN_c, ...
 E   assert 705 == 0
 E     -705
 E     +0
@@ -1218,7 +1219,8 @@ __________________________ test_reaction_mass_balance __________________________
     assert len(ann["data"]) == 0, ann["message"]
 E   AssertionError: A total of 1166 (34.14%) reactions are mass unbalanced with at least
 E     one of the metabolites not having a formula or the overall mass not
-E     equal to 0: FAS11_m, NDPK2_c, GSNK_m, RC08539, DGR0027, ...
+E     equal to 0: RM03665, NDPK7_n, RXN909_301_c, RM03905, 2_4_1_131_RXN_c,
+E     ...
 E   assert 1166 == 0
 E     -1166
 E     +0
@@ -1327,8 +1329,8 @@ ________________ test_metabolic_reaction_specific_sbo_presence _________________
     if is_transport_reaction_formulae(rxn):
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:202: in is_transport_reaction_formulae
     delta_dicts = find_transported_elements(rxn)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:107: in find_transported_elements
-    for (k, v) in iteritems(met.elements)}
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:110: in find_transported_elements
+    iteritems(met.elements)}
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/six.py:587: in iteritems
     return iter(d.items(**kw))
 E   AttributeError: 'NoneType' object has no attribute 'items'
@@ -1341,8 +1343,8 @@ ________________ test_transport_reaction_specific_sbo_presence _________________
     if is_transport_reaction_formulae(rxn):
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:202: in is_transport_reaction_formulae
     delta_dicts = find_transported_elements(rxn)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:107: in find_transported_elements
-    for (k, v) in iteritems(met.elements)}
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:110: in find_transported_elements
+    iteritems(met.elements)}
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/six.py:587: in iteritems
     return iter(d.items(**kw))
 E   AttributeError: 'NoneType' object has no attribute 'items'
@@ -1351,8 +1353,8 @@ ______________________ test_biomass_specific_sbo_presence ______________________
     assert len(ann["data"]) == 0, ann["message"]
 E   AssertionError: A total of 7 biomass reactions (100.00% of all biomass reactions)
 E     lack annotation with the SBO term "SBO:0000629" for         'biomass
-E     production': Riboflavin_transport, nucbiomass_n, deoxynucbiomass_n,
-E     nucbiomass_m, deoxynucbiomass_m, ...
+E     production': nucbiomass_n, nucbiomass_m, deoxynucbiomass_n,
+E     Riboflavin_transport, deoxynucbiomass_m, ...
 E   assert 7 == 0
 E     -7
 E     +0
@@ -1371,8 +1373,8 @@ __________________ test_find_candidate_irreversible_reactions __________________
     if is_transport_reaction_formulae(rxn):
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:202: in is_transport_reaction_formulae
     delta_dicts = find_transported_elements(rxn)
-../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:107: in find_transported_elements
-    for (k, v) in iteritems(met.elements)}
+../../../virtualenv/python3.7.1/lib/python3.7/site-packages/memote/support/helpers.py:110: in find_transported_elements
+    iteritems(met.elements)}
 ../../../virtualenv/python3.7.1/lib/python3.7/site-packages/six.py:587: in iteritems
     return iter(d.items(**kw))
 E   AttributeError: 'NoneType' object has no attribute 'items'
@@ -1385,10 +1387,10 @@ virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_basic
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_basic.py::test_find_transport_reactions
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_basic.py::test_find_constrained_transport_reactions
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_basic.py::test_transport_reaction_gpr_presence
-virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[Riboflavin_transport]
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[nucbiomass_n]
-virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[deoxynucbiomass_n]
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[nucbiomass_m]
+virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[deoxynucbiomass_n]
+virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[Riboflavin_transport]
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[deoxynucbiomass_m]
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[Riboflavin_Exchange_reactions_e]
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_biomass.py::test_direct_metabolites_in_biomass[Biomass2]
@@ -1399,70 +1401,46 @@ virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_therm
   cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in '(C6H10O5)12R'
 
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C14H18O4(C5H8)n'
-
-virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C26H47O9P(C5H8)n'
-
-virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C2H4NO2R(C2H2NOR)n'
-
-virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C13H23NO15P2R2(C5H8O6PR)n'
-
-virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in '(C4H6N2O2SR2)2'
-
-virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in '(C6H10O5)8R'
-
-virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in '(C8H13NO5)n'
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C20H28N6O13PR(C5H8O6PR)n'
 
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
   cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C20H37O4P(C5H8)n'
 
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C20H38O7P2(C5H8)n'
-
-virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C14H20O4(C5H8)n'
-
-virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C13H22NO11PSeR2(C5H8O6PR)n'
-
-virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C20H36O7P2(C5H8)n'
-
-virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C7H11N2O5R(C2H2NOR)n'
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in '(C5H8)n.C28H49NO12P2'
 
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
   cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C36H64N2O17P2(C5H8)n'
 
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C48H84N2O27P2(C5H8)n'
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C13H23NO15P2R2(C5H8O6PR)n'
 
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C13H22NO11PR2(C5H8O6PR)n'
-
-virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in '(C5H8)n.C28H49NO12P2'
-
-virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C20H28N6O13PR(C5H8O6PR)n'
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C14H18O4(C5H8)n'
 
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
   cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C13H22NO12PR2(C5H8O6PR)n'
 
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C2H5NO2(C8H12N2O4S)n'
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C26H47O9P(C5H8)n'
+
+virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C14H20O4(C5H8)n'
+
+virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C2H4NO2R(C2H2NOR)n'
+
+virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C26H39N5O6SR4(C2H2NOR)n'
+
+virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C20H36O(C5H8)n'
 
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
   cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C20H33N2O3SR(C2H2NOR)n'
 
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C26H39N5O6SR4(C2H2NOR)n'
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C2H5NO2(C8H12N2O4S)n'
 
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
   cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C11H15N5O6SR4(C2H2NOR)n'
@@ -1474,7 +1452,31 @@ virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consi
   cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in '(C5H8)n.C15H25O7P2'
 
 virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
-  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C20H36O(C5H8)n'
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C48H84N2O27P2(C5H8)n'
+
+virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in '(C4H6N2O2SR2)2'
+
+virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in '(C6H10O5)8R'
+
+virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in '(C8H13NO5)n'
+
+virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C20H38O7P2(C5H8)n'
+
+virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C13H22NO11PSeR2(C5H8O6PR)n'
+
+virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C20H36O7P2(C5H8)n'
+
+virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C7H11N2O5R(C2H2NOR)n'
+
+virtualenv/python3.7.1/lib/python3.7/site-packages/memote/suite/tests/test_consistency.py::test_reaction_mass_balance
+  cobra/core/metabolite.py:89 [1;31mUserWarning[0m: invalid formula (has parenthesis) in 'C13H22NO11PR2(C5H8O6PR)n'
 
 -- Docs: https://docs.pytest.org/en/latest/warnings.html
-====== 124 failed, 57 passed, 18 skipped, 43 warnings in 1209.47 seconds =======
+====== 124 failed, 57 passed, 18 skipped, 43 warnings in 1295.51 seconds =======
