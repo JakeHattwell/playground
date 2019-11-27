@@ -214,7 +214,10 @@ for key,val in compiler.tables.get("Compound").data.items():
         }
         for i in ["!Identifiers:chebi","!Identifiers:pubmed","!Identifiers:doi","!Identifiers:eco"]:
             if val[i]!="":
-                etree.SubElement(next_level,"{%s}"%rdf+"li",attrib={"{%s}"%rdf+"resource":annotation_links[i]+val[i]})
+                if i == "!Identifiers:pubmed":
+                    etree.SubElement(next_level,"{%s}"%rdf+"li",attrib={"{%s}"%rdf+"resource":"https://identifiers.org/pubchem.compound/"+val[i]})
+                else:
+                    etree.SubElement(next_level,"{%s}"%rdf+"li",attrib={"{%s}"%rdf+"resource":annotation_links[i]+val[i]})
 
 #
 # Parameters
