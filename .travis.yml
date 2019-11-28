@@ -12,8 +12,6 @@ script:
     - python python/restricted_fba.py
     - if [ $TRAVIS_PULL_REQUEST != 'false' ]; then
         travis_retry memote run --ignore-git --location . test_model.xml >&1 | tee results.txt;
-      fi
-    - if [$TRAVIS_PULL_REQUEST != 'false' ]; then
         python ./comment_script.py $GITHUB_TOKEN $TRAVIS_REPO_SLUG $TRAVIS_PULL_REQUEST;
       fi
     - if [$TRAVIS_PULL_REQUEST == 'false' ]; then
