@@ -28,4 +28,3 @@ deploy:
       branch: devel
       condition: $TRAVIS_PYTHON_VERSION = "3.7"
     target_branch: gh-pages
-
