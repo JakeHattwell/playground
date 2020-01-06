@@ -28,11 +28,11 @@ with open("results.json","r") as f:
 
 msg = "## Results"
 for key,val in data.get("tests").items():
-    if type(val.get("results","ERROR")) == str:
+    if type(val.get("results")) == str:
         msg += "\n**"+key+"**:"+val.get("result")
     else:
         msg += "\n**"+key+"**:"
-        results = val.get("results")
+        results = val.get("results",{"status":"ERRORED"})
         for key2,val2 in results.items():
             msg += key2 + ":" + val
             
