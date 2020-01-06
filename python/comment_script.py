@@ -17,6 +17,7 @@ API_ENDPOINT = "https://api.github.com/repos/%s/issues/%s/comments"%(REPO_SLUG,P
 headers = {'Authorization':'token '+API_KEY}
 
 def post_to_github(data):
+    print("Beginning post to GitHub")
     ddata = {"body":data}
     json_data = json.dumps(ddata)
     comment = requests.post(API_ENDPOINT,headers=headers,data=json_data) 
