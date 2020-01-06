@@ -30,12 +30,12 @@ print("Data loaded")
 msg = "## Results"
 for key,val in data.get("tests").items():
     if type(val.get("result")) == str:
-        msg += "\n**"+key+"**:"+val.get("result")
+        msg += "\n###"+key+":\n"+val.get("result")
     else:
-        msg += "\n**"+key+"**:"
+        msg += "\n###"+key+":"
         results = val.get("result",{"status":"ERRORED"})
         for key2,val2 in results.items():
-            msg += "\n"+key2 + ": " + val2
+            msg += "\n**"+key2 + "**: " + val2
             
 
 post_to_github(msg)
