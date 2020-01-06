@@ -2,11 +2,14 @@ import json
 import sys
 import os
 import requests
+import datetime
 
 API_KEY = sys.argv[1]
 REPO_SLUG = sys.argv[2]
 PULL_REQUEST = sys.argv[3]
-
+DISCORD_ENDPOINT = sys.argv[4]
+REPO_URL = sys.argv[5]
+BUILD_NUMBER = sys.argv[6]
 API_ENDPOINT = "https://api.github.com/repos/%s/issues/%s/comments"%(REPO_SLUG,PULL_REQUEST)
 
 # print(API_KEY)
@@ -39,3 +42,16 @@ for key,val in data.get("tests").items():
             
 
 post_to_github(msg)
+
+files = {'results.json': open('results.json', 'rb')}
+payload_json = {
+    "embeds": [{
+        "title": "WormJam CI Report",
+        "color": 16709211,
+        "description": "memote report of the WormJam model - Build #"+str(BUILD_NUMBER),
+        "timestamp": str(datetime.datetime.now().isoformat())
+    }]
+}
+
+r =requests.post(DISCORD_ENDPOINT,data=json.dumps(payload_json), headers={"Content-Type": "application/json"})
+r2 = requests.post(DISCORD_ENDPOINT, files=files)

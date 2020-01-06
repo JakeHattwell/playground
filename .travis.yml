@@ -1,3 +1,6 @@
+env:
+  - REPO_URL=https://raw.githubusercontent.com/${TRAVIS_PULL_REQUEST_SLUG:-$TRAVIS_REPO_SLUG}/${TRAVIS_PULL_REQUEST_BRANCH:-$TRAVIS_BRANCH}
+  
 language: python
 python:
    - "3.7"
@@ -20,7 +23,7 @@ jobs:
         - python python/tsv_to_sbml.py
         - python python/run_memote.py;
         - if [ $TRAVIS_PULL_REQUEST != "false" ]; then
-            python python/comment_script.py $GITHUB_TOKEN $TRAVIS_REPO_SLUG $TRAVIS_PULL_REQUEST;
+            python python/comment_script.py $GITHUB_TOKEN $TRAVIS_REPO_SLUG $TRAVIS_PULL_REQUEST $DISCORD_ENDPOINT $REPO_URL;
           else
             travis_retry memote report snapshot --filename "docs/report.html" test_model.xml;
           fi
