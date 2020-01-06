@@ -6,7 +6,7 @@ from lxml import etree
 
 from resources.sbtabpy import modelSystem
 
-OUTPUT_NAME = "test_model.xml"
+OUTPUT_NAME = "WormJam.xml"
 
 ######################
 ######################
