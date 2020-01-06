@@ -28,6 +28,13 @@ with open("results.json","r") as f:
 
 msg = "## Results"
 for key,val in data.get("tests").items():
-    msg = "\n**"+key+"**:"+val.get("result")
+    if type(val.get("results")) == str:
+        msg += "\n**"+key+"**:"+val.get("result")
+    else:
+        msg += "\n**"+key+"**:"
+        results = val.get("results")
+        for key2,val2 in results.items():
+            msg += key2 + ":" + val
+            
 
 post_to_github(msg)
