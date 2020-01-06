@@ -29,13 +29,13 @@ with open("results.json","r") as f:
 print("Data loaded")
 msg = "## Results"
 for key,val in data.get("tests").items():
-    if type(val.get("results")) == str:
+    if type(val.get("result")) == str:
         msg += "\n**"+key+"**:"+val.get("result")
     else:
         msg += "\n**"+key+"**:"
-        results = val.get("results",{"status":"ERRORED"})
+        results = val.get("result",{"status":"ERRORED"})
         for key2,val2 in results.items():
-            msg += key2 + ":" + val2
+            msg += key2 + ": " + val2
             
 
 post_to_github(msg)
