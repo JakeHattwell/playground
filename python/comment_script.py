@@ -25,7 +25,7 @@ def post_to_github(data):
 
 with open("results.json","r") as f:
     data = json.loads(f.read())
-
+print("Data loaded")
 msg = "## Results"
 for key,val in data.get("tests").items():
     if type(val.get("results")) == str:
