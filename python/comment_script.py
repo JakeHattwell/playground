@@ -34,7 +34,7 @@ for key,val in data.get("tests").items():
         msg += "\n**"+key+"**:"
         results = val.get("results",{"status":"ERRORED"})
         for key2,val2 in results.items():
-            msg += key2 + ":" + val
+            msg += key2 + ":" + val2
             
 
 post_to_github(msg)

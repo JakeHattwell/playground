@@ -18,8 +18,6 @@ jobs:
     - stage: generate_report
       script: 
         - python python/tsv_to_sbml.py
-        - travis_wait 2 python python/basic_fba.py
-        - python python/restricted_fba.py
         - python python/run_memote.py;
         - if [ $TRAVIS_PULL_REQUEST != "false" ]; then
             python python/comment_script.py $GITHUB_TOKEN $TRAVIS_REPO_SLUG $TRAVIS_PULL_REQUEST;
