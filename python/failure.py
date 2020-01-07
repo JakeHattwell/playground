@@ -9,7 +9,7 @@ payload_json = {
     "embeds": [{
         "title": "WormJam CI Report",
         "color": 10027008,
-        "description": "Travis CI Build",
+        "description": "Travis CI Build Failed",
         "fields":[
             {
                 "name": "Build Number",
