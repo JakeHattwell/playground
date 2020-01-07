@@ -1,6 +1,3 @@
-env:
-  - REPO_URL=https://raw.githubusercontent.com/${TRAVIS_PULL_REQUEST_SLUG:-$TRAVIS_REPO_SLUG}/${TRAVIS_PULL_REQUEST_BRANCH:-$TRAVIS_BRANCH}
-  
 language: python
 python:
    - "3.7"
@@ -23,7 +20,7 @@ jobs:
         - python python/tsv_to_sbml.py
         - python python/run_memote.py;
         - if [ $TRAVIS_PULL_REQUEST != "false" ]; then
-            python python/comment_script.py $GITHUB_TOKEN $TRAVIS_REPO_SLUG $TRAVIS_PULL_REQUEST $DISCORD_ENDPOINT $REPO_URL $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_WEB_URL;
+            python python/comment_script.py $GITHUB_TOKEN $TRAVIS_REPO_SLUG $TRAVIS_PULL_REQUEST $DISCORD_ENDPOINT $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_WEB_URL;
           else
             python python/PR_merge.py $DISCORD_ENDPOINT $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_WEB_URL;
           fi
@@ -34,12 +31,12 @@ stages:
   - basic_tests
   - generate_report
 
-deploy:
-  - provider: pages
-    skip_cleanup: true
-    github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-    keep_history: true
-    on:
-      branch: devel
-      condition: $TRAVIS_PYTHON_VERSION = "3.7"
-    target_branch: gh-pages
+# deploy:
+#   - provider: pages
+#     skip_cleanup: true
+#     github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+#     keep_history: true
+#     on:
+#       branch: devel
+#       condition: $TRAVIS_PYTHON_VERSION = "3.7"
+#     target_branch: gh-pages

@@ -8,9 +8,8 @@ API_KEY = sys.argv[1]
 REPO_SLUG = sys.argv[2]
 PULL_REQUEST = sys.argv[3]
 DISCORD_ENDPOINT = sys.argv[4]
-REPO_URL = sys.argv[5]
-BUILD_NUMBER = sys.argv[6]
-TRAVIS_BUILD_WEB_URL = sys.argv[7]
+BUILD_NUMBER = sys.argv[5]
+TRAVIS_BUILD_WEB_URL = sys.argv[6]
 API_ENDPOINT = "https://api.github.com/repos/%s/issues/%s/comments"%(REPO_SLUG,PULL_REQUEST)
 
 # print(API_KEY)
