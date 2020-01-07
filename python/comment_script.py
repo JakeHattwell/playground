@@ -49,11 +49,15 @@ payload_json = {
     "embeds": [{
         "title": "WormJam CI Report",
         "color": 16709211,
-        "description": "memote report of the WormJam model - Build #"+str(BUILD_NUMBER),
+        "description": "Pull Request",
         "fields":[
             {
-                "name":"Travis CI:",
-                "value":"Build logs can be found [here]("+TRAVIS_BUILD_WEB_URL+")"
+                "name": "Build Number",
+                "value":str(BUILD_NUMBER)
+            },
+            {
+                "name":"Build logs",
+                "value":"Logs can be found [here]("+TRAVIS_BUILD_WEB_URL+")"
             }
         ],
         "timestamp": str(datetime.datetime.now().isoformat())
