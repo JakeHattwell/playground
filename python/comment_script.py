@@ -52,8 +52,8 @@ payload_json = {
         "description": "memote report of the WormJam model - Build #"+str(BUILD_NUMBER),
         "fields":[
             {
-                "name":"Travis CI link:",
-                "value":"Travis CI log can be found [here]("+TRAVIS_BUILD_WEB_URL+")"
+                "name":"Travis CI:",
+                "value":"Build logs can be found [here]("+TRAVIS_BUILD_WEB_URL+")"
             }
         ],
         "timestamp": str(datetime.datetime.now().isoformat())
