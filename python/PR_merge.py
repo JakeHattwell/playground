@@ -30,5 +30,3 @@ payload_json = {
 
 r =requests.post(DISCORD_ENDPOINT,data=json.dumps(payload_json), headers={"Content-Type": "application/json"})
 r2 = requests.post(DISCORD_ENDPOINT, files=files)
-
-a +123123 

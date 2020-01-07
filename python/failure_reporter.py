@@ -10,7 +10,17 @@ payload_json = {
     "embeds": [{
         "title": "WormJam CI Report",
         "color": 10027008,
-        "description": "The above build failed",
+        "description": "A build has failed",
+        "fields":[
+            {
+                "name": "Build Number",
+                "value":str(TRAVIS_BUILD_NUMBER)
+            },
+            {
+                "name":"Build logs",
+                "value":"Logs can be found [here]("+TRAVIS_BUILD_WEB_URL+")"
+            }
+        ],
         "timestamp": str(datetime.datetime.now().isoformat())
     }]
 }
