@@ -55,7 +55,7 @@ payload_json = {
                 "name":"Travis CI link:",
                 "value":"Travis CI log can be found [here]("+TRAVIS_BUILD_WEB_URL+")"
             }
-        ]
+        ],
         "timestamp": str(datetime.datetime.now().isoformat())
     }]
 }
