@@ -10,6 +10,7 @@ PULL_REQUEST = sys.argv[3]
 DISCORD_ENDPOINT = sys.argv[4]
 REPO_URL = sys.argv[5]
 BUILD_NUMBER = sys.argv[6]
+TRAVIS_BUILD_WEB_URL = sys.argv[7]
 API_ENDPOINT = "https://api.github.com/repos/%s/issues/%s/comments"%(REPO_SLUG,PULL_REQUEST)
 
 # print(API_KEY)
@@ -49,6 +50,12 @@ payload_json = {
         "title": "WormJam CI Report",
         "color": 16709211,
         "description": "memote report of the WormJam model - Build #"+str(BUILD_NUMBER),
+        "fields":[
+            {
+                "name":"Travis CI link:",
+                "value":"Travis CI log can be found [here]("+TRAVIS_BUILD_WEB_URL+")"
+            }
+        ]
         "timestamp": str(datetime.datetime.now().isoformat())
     }]
 }
